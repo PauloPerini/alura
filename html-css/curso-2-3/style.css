@@ -1,0 +1,96 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+</style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-tercearia: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;;
+    --fonte-secundaria: 'Montserrat', sans-serif;;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria)
+}
+.header{
+    padding: 2% 0 0 15%;
+}
+.header__nav{
+    display: flex;
+    gap: 80px;
+}
+.header__nav__item{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    color: var(--cor-tercearia);
+    text-decoration: none;
+}
+
+.show{
+    padding: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.show__content{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.show__content__title{
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+.titulo-destaque{
+    color: var(--cor-tercearia);
+}
+.show__content__text{
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+}
+.show__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+.show__links__sub{
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+}
+.show__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-tercearia);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+.show__links__link:hover{
+    background-color: #272727;
+}
+.footer{
+    color: var(--cor-primaria);
+    background-color: var(--cor-tercearia);
+    padding: 0.5px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+}
