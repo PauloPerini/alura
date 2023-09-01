@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 @import url("../styles/header.css");
+@import url("banner.css");
+@import url("carrossel.css");
 :root{
     --bg-color: #EBECEE;
     --branco: #FFFFFF;
