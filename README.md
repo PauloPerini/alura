@@ -2,7 +2,7 @@
 <style>
     a{
         text-decoration: none;
-        color: white;
+        color: black;
     }
 </style>
  Olá abaixo irei deixar os links de cada um dos projetos desenvolvidos por mim durante os estudos na plataforma alura!
