@@ -1,5 +1,4 @@
 
-1h e 20
 
 function tocaSom (seletorAudio) {
     const elemento = document.querySelector(seletorAudio);
