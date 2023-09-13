@@ -20,7 +20,7 @@ form.addEventListener("submit", (evento)=>{
 
 
     itens.push(itemAtual)
-    localStorage.setItem("ites", JSON.stringify(itens))
+    localStorage.setItem("itens", JSON.stringify(itens))
 
     nome.value = ""
     quantidade.value = ""
@@ -29,10 +29,10 @@ form.addEventListener("submit", (evento)=>{
 })
 
 function criaElemento(item){
-    const novoItem = document.createElement('li')
+    const novoItem = document.createElement("li")
     novoItem.classList.add("item")
 
-    const numeroItem = document.createElement('strong')
+    const numeroItem = document.createElement("strong")
     numeroItem.innerHTML = item.quantidade
 
     novoItem.appendChild(numeroItem)
